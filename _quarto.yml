@@ -5,16 +5,19 @@ project:
 website:
   title: "akrunanalyticscorp"
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - hobbies.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: 
+     dark: slate
+     light: minty
     css: styles.css
-    toc: true
 
 editor: visual
 
