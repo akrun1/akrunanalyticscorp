@@ -5,19 +5,21 @@ about:
   template: trestles
   image-width: 25em
   links:
-    - text: LinkedIn
+    - text: "{{< fa brands linkedin size=5x >}}"
       href: https://www.linkedin.com/in/akrun1/
-    - text: Stackoverflow
+    - text: "{{< fa brands stack-overflow size=5x >}}"
       href: https://www.stackoverflow.com/users/3732271/akrun
-    - text: GitHub
+    - text: "{{< fa brands github size=5x >}}"
       href: https://github.com/akrun1
-    - text: Email
-      href: mailto:akrun111@gmail.com
 ---
+
+
 
 
 ::: {#hero-heading}
 **Arun Kirshna Sasikala Appukuttan** is the Chief Data Scientist at akrun Analytics. When not innovating on data platforms, Arun enjoys spending time on stackoverflow and playing keyboard.
+
+
 
 ## Education
 
