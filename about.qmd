@@ -2,5 +2,9 @@
 title: "About"
 ---
 
-For data science contract jobs, contact via email - akrun111@gmail.com or phone - 613-868-7485
+For data science contract jobs please contact:
+
+{{< fa envelope size=1x >}} -  akrun111@gmail.com
+
+{{< fa mobile size=1x >}} - 613-868-7485
 
