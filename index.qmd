@@ -1,6 +1,6 @@
 ---
 title: "akrun Analytics"
-image: unsplash.jpg
+image: arun.png
 about: 
   template: trestles
   image-width: 25em
@@ -13,13 +13,8 @@ about:
       href: https://github.com/akrun1
 ---
 
-
-
-
 ::: {#hero-heading}
-**Arun Kirshna Sasikala Appukuttan** is the Chief Data Scientist at akrun Analytics. When not innovating on data platforms, Arun enjoys spending time on stackoverflow and playing keyboard.
-
-
+**Arun Kirshna Sasikala Appukuttan** is the Chief Data Scientist at akrun Analytics. When not innovating on data platforms, Arun enjoys spending time on [stackoverflow](https://stackoverflow.com/users/3732271/akrun) (all time top 0.01% overall contributor) and playing keyboard.
 
 ## Education
 
@@ -31,6 +26,7 @@ South Dakota State University \| Brooking, SD \| MS in Dairy Nutrition \| Aug 20
 
 Ames Energy \| Head Data Scientist \| Oct 2018 - present
 
-Scifluent \| Data Scientist|Data Engineer \| Jul 2018 - Apr 2020
-:::
+Scifluent \| Data Scientist\|Data Engineer \| Jul 2018 - Apr 2020
 
+Accenture \| Analytics Advisory Specialist \| Sep 2015 - Apr 2018
+:::
