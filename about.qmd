@@ -2,9 +2,11 @@
 title: "About"
 ---
 
+Analytics pro with 20+ years exp (10+ in industry, 10+ in research). Expert in R (all time top contributor on Stack Overflow for 15+ years), Python (5 yrs), SQL (5 yrs), Java (2+ yrs). Holds a Ph.D. in Quantitative Genetics from the Univ. of Maryland, College Park. Passionate about learning new tech, data, and modeling techniques. Developed cutting-edge analytics solutions for service and product-based companies. Enjoys building with open-source data, fostering collaboration. Adept at staying current with industry trends, ensuring solutions align with best practices. Proven track record, offering a dynamic and innovative approach to analytics.
+
 For data science contract jobs please contact:
 
-{{< fa envelope size=1x >}} -  akrun111@gmail.com
+{{< fa envelope size=1x >}} akrun111@gmail.com
 
-{{< fa mobile size=1x >}} - 613-868-7485
+{{< fa mobile size=1x >}} +1-613-868-7485
 
