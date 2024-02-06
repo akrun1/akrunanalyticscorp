@@ -3,7 +3,7 @@ title: "akrun Analytics"
 image: arun.png
 about: 
   template: trestles
-  image-width: 25em
+  image-width: 30em
   links:
     - text: "{{< fa brands linkedin size=5x >}}"
       href: https://www.linkedin.com/in/akrun1/
@@ -13,20 +13,15 @@ about:
       href: https://github.com/akrun1
 ---
 
-::: {#hero-heading}
-**Arun Kirshna Sasikala Appukuttan** is the Chief Data Scientist at akrun Analytics. When not innovating on data platforms, Arun enjoys spending time on [stackoverflow](https://stackoverflow.com/users/3732271/akrun) (all time top 0.01% overall contributor) and playing keyboard.
+Welcome to akrun Analytics, where data transforms into actionable insights, and innovation fuels our passion for business analytics. Meet **Arun Kirshna Sasikala Appukuttan**, our distinguished Chief Data Scientist, leading the charge in converting raw data into strategic intelligence.
 
-## Education
+Arun's dedication to the realm of data is unparalleled. When not spearheading advancements in data platforms, he immerses himself in [Stack Overflow](https://stackoverflow.com/users/3732271/akrun), ranking in the top 0.01% overall. His commitment to knowledge sharing is evident with over 37,000 statistics-related answers, making him an invaluable global resource.
 
-University of Maryland \| College Park, MD \| PhD in Quantitative Genetics \| Aug 2006 - May 2010
+Beyond providing insights, Arun is the all-time top R contributor on Stack Overflow, showcasing mastery in statistical programming and influencing the data science landscape.
 
-South Dakota State University \| Brooking, SD \| MS in Dairy Nutrition \| Aug 2004 - Jul 2006
+At akrun Analytics, we leverage Arun's expertise to navigate business analytics complexities. With keen innovation and insatiable curiosity, Arun empowers businesses through data-driven decision-making. Join us on this transformative journey, where data meets excellence, and let akrun Analytics be your guiding compass. Together, we elevate your data strategies, driving unprecedented success in the dynamic world of business analytics.
 
-## Experience
 
-Ames Energy \| Head Data Scientist \| Oct 2018 - present
 
-Scifluent \| Data Scientist\|Data Engineer \| Jul 2018 - Apr 2020
 
-Accenture \| Analytics Advisory Specialist \| Sep 2015 - Apr 2018
-:::
+

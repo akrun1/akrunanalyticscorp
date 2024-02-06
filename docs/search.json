@@ -11,14 +11,14 @@
     "href": "index.html",
     "title": "akrun Analytics",
     "section": "",
-    "text": "Arun Kirshna Sasikala Appukuttan is the Chief Data Scientist at akrun Analytics. When not innovating on data platforms, Arun enjoys spending time on stackoverflow (all time top 0.01% overall contributor) and playing keyboard.\n\n\nUniversity of Maryland | College Park, MD | PhD in Quantitative Genetics | Aug 2006 - May 2010\nSouth Dakota State University | Brooking, SD | MS in Dairy Nutrition | Aug 2004 - Jul 2006\n\n\n\nAmes Energy | Head Data Scientist | Oct 2018 - present\nScifluent | Data Scientist|Data Engineer | Jul 2018 - Apr 2020\nAccenture | Analytics Advisory Specialist | Sep 2015 - Apr 2018"
+    "text": "Welcome to akrun Analytics, where data transforms into actionable insights, and innovation fuels our passion for business analytics. Meet Arun Kirshna Sasikala Appukuttan, our distinguished Chief Data Scientist, leading the charge in converting raw data into strategic intelligence.\nArun’s dedication to the realm of data is unparalleled. When not spearheading advancements in data platforms, he immerses himself in Stack Overflow, ranking in the top 0.01% overall. His commitment to knowledge sharing is evident with over 37,000 statistics-related answers, making him an invaluable global resource.\nBeyond providing insights, Arun is the all-time top R contributor on Stack Overflow, showcasing mastery in statistical programming and influencing the data science landscape.\nAt akrun Analytics, we leverage Arun’s expertise to navigate business analytics complexities. With keen innovation and insatiable curiosity, Arun empowers businesses through data-driven decision-making. Join us on this transformative journey, where data meets excellence, and let akrun Analytics be your guiding compass. Together, we elevate your data strategies, driving unprecedented success in the dynamic world of business analytics."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Analytics pro with 20+ years exp (10+ in industry, 10+ in research). Expert in R (top contributor on Stack Overflow for 15+ years), Python (5 yrs), SQL (5 yrs), Java (2+ yrs). Holds a Ph.D. in Quantitative Genetics from the Univ. of Maryland, College Park. Passionate about learning new tech, data, and modeling techniques. Developed cutting-edge analytics solutions for service and product-based companies. Enjoys building with open-source data, fostering collaboration. Adept at staying current with industry trends, ensuring solutions align with best practices. Proven track record, offering a dynamic and innovative approach to analytics.\nFor data science contract jobs please contact:\n akrun111@gmail.com\n +1-613-868-7485"
+    "text": "Arun Kirshna Sasikala Appukuttan: Analytics pro with 20+ years (10+ industry, 10+ research). Expert in R (15+ yrs), Python (5), SQL (5), Java (2+). Holds a Ph.D. in Quantitative Genetics. Passionate about tech, data, and cutting-edge analytics. Proven track record, dynamic and innovative approach.\n\n\nUniversity of Maryland | College Park, MD | PhD in Quantitative Genetics | Aug 2006 - May 2010\nSouth Dakota State University | Brooking, SD | MS in Dairy Nutrition | Aug 2004 - Jul 2006\n\n\n\nAmes Energy | Head Data Scientist | Oct 2018 - present\nScifluent | Data Scientist|Data Engineer | Jul 2018 - Apr 2020\nAccenture | Analytics Advisory Specialist | Sep 2015 - Apr 2018\n\n\n\nFor data science services please contact:\n akrun111@gmail.com\n +1-613-868-7485"
   },
   {
     "objectID": "index.html#education",
@@ -33,5 +33,26 @@
     "title": "akrun Analytics",
     "section": "Experience",
     "text": "Experience\nAmes Energy | Head Data Scientist | Oct 2018 - present\nScifluent | Data Scientist|Data Engineer | Jul 2018 - Apr 2020 :::"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nUniversity of Maryland | College Park, MD | PhD in Quantitative Genetics | Aug 2006 - May 2010\nSouth Dakota State University | Brooking, SD | MS in Dairy Nutrition | Aug 2004 - Jul 2006"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nAmes Energy | Head Data Scientist | Oct 2018 - present\nScifluent | Data Scientist|Data Engineer | Jul 2018 - Apr 2020\nAccenture | Analytics Advisory Specialist | Sep 2015 - Apr 2018"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nFor data science services please contact:\n akrun111@gmail.com\n +1-613-868-7485"
   }
 ]
