@@ -1,4 +1,14 @@
 ---
-title: "Hobbies"
+title: "Interests and Activities"
 editor: visual
 ---
+
+* Programming
+* Yoga
+* Cycling
+* Running
+* Swimming
+* Piano
+* Books
+* Learning new languages (e.g., French on Duolingo)
+* Cooking

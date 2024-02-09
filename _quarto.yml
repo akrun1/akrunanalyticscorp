@@ -11,7 +11,8 @@ website:
         text: Home
       - about.qmd
       #- testing.qmd
-      - hobbies.qmd
+      #- hobbies.qmd
+      - reviews.qmd
 
 format:
   html:
