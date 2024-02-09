@@ -1,10 +1,19 @@
 ---
 title: "About"
+format: 
+  html:
+    code-fold: true
 ---
 
-::: {#hero-heading}
+:::: {.columns}
 
-Arun Kirshna Sasikala Appukuttan: Analytics pro with 20+ years (10+ industry, 10+ research). Expert in R (15+ yrs), Python (5), SQL (5), Java (2+). Holds a Ph.D. in Quantitative Genetics. Passionate about tech, data, and cutting-edge analytics. Proven track record, dynamic and innovative approach.
+::: {.column width="60%"}
+<p style="font-size:20px;"> 
+Arun Kirshna Sasikala Appukuttan: Analytics pro with 20+ years (10+ industry, 10+ research). Expert in <span style="color: blue">R</span> (15+ yrs), Python (5), SQL (5), Java (2+). Holds a Ph.D. in Quantitative Genetics. Passionate about tech, data, and cutting-edge analytics. Proven track record, dynamic and innovative approach.
+</p>
+:::
+
+::: {.column width="40%"}
 
 ## Education
   
@@ -29,4 +38,6 @@ For data science services please contact:
 {{< fa mobile size=1x >}} +1-613-868-7485
 
 :::
+::::
+
 
