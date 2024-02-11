@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "akrunanalyticscorp"
+  title: "akrun Analytics | Elevating businesses into Singularity"
   navbar:
     background: primary
     left:
@@ -15,7 +15,8 @@ website:
       - reviews.qmd
 
 format:
-  html:
+  html: 
+    title: "akrun Analytics | Elevating businesses into Singularity"
     theme: 
      dark: slate
      light: minty
