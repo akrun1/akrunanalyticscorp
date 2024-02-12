@@ -3,6 +3,10 @@ title: "About"
 format: 
   html:
     code-fold: true
+    
+about: 
+  template: marquee
+
 ---
 
 :::: {.columns}
@@ -11,6 +15,11 @@ format:
 <p style="font-size:20px;"> 
 Arun Kirshna Sasikala Appukuttan: Analytics pro with 20+ years (10+ industry, 10+ research). Expert in <span style="color: blue">R</span> (15+ yrs), Python (5), SQL (5), Java (2+). Holds a Ph.D. in Quantitative Genetics. Passionate about tech, data, and cutting-edge analytics. Proven track record, dynamic and innovative approach.
 </p>
+
+![](topR.png){width=80%}
+
+
+
 :::
 
 ::: {.column width="40%"}
