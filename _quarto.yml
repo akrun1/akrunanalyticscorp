@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - akrun.mp4
 
 website:
   title: "akrun Analytics | Elevating businesses into Singularity"
@@ -12,6 +14,7 @@ website:
       - about.qmd
       #- testing.qmd
       #- hobbies.qmd
+      - vision.qmd
       - reviews.qmd
 
 format:
