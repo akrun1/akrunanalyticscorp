@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "Hello_world.html",
-    "href": "Hello_world.html",
-    "title": "Outcomes",
+    "objectID": "testing.html",
+    "href": "testing.html",
+    "title": "testing",
     "section": "",
-    "text": "What’s your revenue growth target for the next fiscal period? Let’s align our solutions for optimal success\n#| standalone: true\n\nfrom shiny import *\n\n\napp_ui = ui.page_fluid(\n    ui.input_slider(\"n\", \"\", 0, 100, 40),\n    ui.output_text_verbatim(\"txt\"),\n)\n\ndef server(input, output, session):\n    @output\n    @render.text\n    def txt():\n      return f\"The revenue growth we aim is {input.n()}X\"\n\napp = App(app_ui, server)"
+    "text": "viewof bill_length_min = Inputs.range(\n  [32, 50],\n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"],\n  { value: [\"Torgersen\", \"Biscoe\"],\n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfiltered = transpose(data).filter(function(penguin) {\n  return bill_length_min < penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n\n\n\n\n\n\n\nPlotData\n\n\n\nPlot.rectY(filtered,\n  Plot.binX(\n    {y: \"count\"},\n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)"
   },
   {
     "objectID": "index.html",
@@ -19,6 +19,48 @@
     "title": "About",
     "section": "",
     "text": "Arun Kirshna Sasikala Appukuttan: Analytics pro with 20+ years (10+ industry, 10+ research). Expert in R (15+ yrs), Python (5), SQL (5), Java (2+). Holds a Ph.D. in Quantitative Genetics. Passionate about tech, data, and cutting-edge analytics. Proven track record, dynamic and innovative approach.\n\n\n\n\n\nUniversity of Maryland | College Park, MD | PhD in Quantitative Genetics | Aug 2006 - May 2010\nSouth Dakota State University | Brooking, SD | MS in Dairy Nutrition | Aug 2004 - Jul 2006\n\n\n\nAmes Energy | Head Data Scientist | Oct 2018 - present\nScifluent | Data Scientist|Data Engineer | Jul 2018 - Apr 2020\nAccenture | Analytics Advisory Specialist | Sep 2015 - Apr 2018\n\n\n\nFor data science services please contact:\n akrun111@gmail.com\n +1-613-868-7485"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "akrun Analytics",
+    "section": "Education",
+    "text": "Education\nUniversity of Maryland | College Park, MD | PhD in Quantitative Genetics | Aug 2006 - May 2010\nSouth Dakota State University | Brooking, SD | MS in Dairy Nutrition | Aug 2004 - Jul 2006"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "akrun Analytics",
+    "section": "Experience",
+    "text": "Experience\nAmes Energy | Head Data Scientist | Oct 2018 - present\nScifluent | Data Scientist|Data Engineer | Jul 2018 - Apr 2020 :::"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nUniversity of Maryland | College Park, MD | PhD in Quantitative Genetics | Aug 2006 - May 2010\nSouth Dakota State University | Brooking, SD | MS in Dairy Nutrition | Aug 2004 - Jul 2006"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nAmes Energy | Head Data Scientist | Oct 2018 - present\nScifluent | Data Scientist|Data Engineer | Jul 2018 - Apr 2020\nAccenture | Analytics Advisory Specialist | Sep 2015 - Apr 2018"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nFor data science services please contact:\n akrun111@gmail.com\n +1-613-868-7485"
+  },
+  {
+    "objectID": "hobbies.html",
+    "href": "hobbies.html",
+    "title": "Interests and Activities",
+    "section": "",
+    "text": "Programming\nYoga\nCycling\nRunning\nSwimming\nPiano\nBooks\nLearning new languages (e.g., French on Duolingo)\nCooking"
   },
   {
     "objectID": "reviews.html",

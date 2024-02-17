@@ -1,6 +1,0 @@
----
-title: "Vision"
----
-
-
-{{< video akrun.mp4 width="900" height="700">}}
