@@ -1,6 +1,12 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - /index.qmd
+    - /about.qmd
+    - /vision.qmd
+    - /reviews.qmd
+    - /Hello_world.qmd
   resources:
     - akrun.mp4
 
@@ -16,6 +22,7 @@ website:
       #- hobbies.qmd
       - vision.qmd
       - reviews.qmd
+      - Hello_world.qmd
 
 format:
   html: 
@@ -25,6 +32,7 @@ format:
      light: minty
     css: styles.css
     page-layout: full
+    toc: true
     
 editor: visual
 
