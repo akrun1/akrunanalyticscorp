@@ -1,6 +1,12 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - /index.qmd
+    - /about.qmd
+    - /vision.qmd
+    - /reviews.qmd
+    - /revenue.qmd
   resources:
     - akrun.mp4
 
@@ -16,6 +22,7 @@ website:
       #- hobbies.qmd
       - vision.qmd
       - reviews.qmd
+      - revenue.qmd
 
 format:
   html: 

@@ -1,0 +1,23 @@
+---
+title: "Revenue growth"
+format: html
+filters:
+  - shinylive
+---
+
+Seeking revenue growth? Specify your target.
+
+```{shinylive-python}
+#| standalone: true
+#| viewerHeight: 420
+
+from shiny.express import input, render, ui
+
+ui.input_slider("n", "N", 0, 100, 20)
+
+
+@render.text
+def txt():
+    return f"Need {input.n()}X increase in revenues"
+
+```

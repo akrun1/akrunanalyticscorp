@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "testing.html",
-    "href": "testing.html",
-    "title": "testing",
-    "section": "",
-    "text": "viewof bill_length_min = Inputs.range(\n  [32, 50],\n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"],\n  { value: [\"Torgersen\", \"Biscoe\"],\n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfiltered = transpose(data).filter(function(penguin) {\n  return bill_length_min < penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n\n\n\n\n\n\n\nPlotData\n\n\n\nPlot.rectY(filtered,\n  Plot.binX(\n    {y: \"count\"},\n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "akrun Analytics | Elevating businesses into Singularity",
     "section": "",
     "text": "Welcome to akrun Analytics, where data transforms into actionable insights, and innovation fuels our passion for business analytics. Meet Arun Kirshna Sasikala Appukuttan, our distinguished Chief Data Scientist, leading the charge in converting raw data into strategic intelligence.\nArun’s dedication to the realm of data is unparalleled. When not spearheading advancements in data platforms, he immerses himself in Stack Overflow, ranking in the top 0.01% overall. His commitment to knowledge sharing is evident with over 37,000 statistics-related answers, making him an invaluable global resource.\nBeyond providing insights, Arun is the all-time top R contributor on Stack Overflow, showcasing mastery in statistical programming and influencing the data science landscape.\nAt akrun Analytics, we leverage Arun’s expertise to navigate business analytics complexities. With keen innovation and insatiable curiosity, Arun empowers businesses through data-driven decision-making. Join us on this transformative journey, where data meets excellence, and let akrun Analytics be your guiding compass. Together, we elevate your data strategies, driving unprecedented success in the dynamic world of business analytics."
+  },
+  {
+    "objectID": "reviews.html",
+    "href": "reviews.html",
+    "title": "Customer Reviews",
+    "section": "",
+    "text": "Welcome to our Testimonials and Reviews section, where our customers’ voices shine. Dive into a collection of genuine feedback reflecting satisfaction, trust, and appreciation for our products/services. These testimonials encapsulate our commitment to quality, service, and innovation.\nExplore diverse perspectives from our clients, sharing insights into the impact we’ve had on individuals and businesses. Join us in celebrating the relationships and success stories created through shared experiences.\nThank you for considering the thoughts of those who matter most – our incredible customers.\n\n\n\nExplore the exceptional feedback on akrun in the Reddit community showcased below."
   },
   {
     "objectID": "about.html",
@@ -21,52 +21,10 @@
     "text": "Arun Kirshna Sasikala Appukuttan: Analytics pro with 20+ years (10+ industry, 10+ research). Expert in R (15+ yrs), Python (5), SQL (5), Java (2+). Holds a Ph.D. in Quantitative Genetics. Passionate about tech, data, and cutting-edge analytics. Proven track record, dynamic and innovative approach.\n\n\n\n\n\nUniversity of Maryland | College Park, MD | PhD in Quantitative Genetics | Aug 2006 - May 2010\nSouth Dakota State University | Brooking, SD | MS in Dairy Nutrition | Aug 2004 - Jul 2006\n\n\n\nAmes Energy | Head Data Scientist | Oct 2018 - present\nScifluent | Data Scientist|Data Engineer | Jul 2018 - Apr 2020\nAccenture | Analytics Advisory Specialist | Sep 2015 - Apr 2018\n\n\n\nFor data science services please contact:\n akrun111@gmail.com\n +1-613-868-7485"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "akrun Analytics",
-    "section": "Education",
-    "text": "Education\nUniversity of Maryland | College Park, MD | PhD in Quantitative Genetics | Aug 2006 - May 2010\nSouth Dakota State University | Brooking, SD | MS in Dairy Nutrition | Aug 2004 - Jul 2006"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "akrun Analytics",
-    "section": "Experience",
-    "text": "Experience\nAmes Energy | Head Data Scientist | Oct 2018 - present\nScifluent | Data Scientist|Data Engineer | Jul 2018 - Apr 2020 :::"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\nUniversity of Maryland | College Park, MD | PhD in Quantitative Genetics | Aug 2006 - May 2010\nSouth Dakota State University | Brooking, SD | MS in Dairy Nutrition | Aug 2004 - Jul 2006"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "About",
-    "section": "Experience",
-    "text": "Experience\nAmes Energy | Head Data Scientist | Oct 2018 - present\nScifluent | Data Scientist|Data Engineer | Jul 2018 - Apr 2020\nAccenture | Analytics Advisory Specialist | Sep 2015 - Apr 2018"
-  },
-  {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About",
-    "section": "Contact",
-    "text": "Contact\nFor data science services please contact:\n akrun111@gmail.com\n +1-613-868-7485"
-  },
-  {
-    "objectID": "hobbies.html",
-    "href": "hobbies.html",
-    "title": "Interests and Activities",
+    "objectID": "revenue.html",
+    "href": "revenue.html",
+    "title": "Revenue growth",
     "section": "",
-    "text": "Programming\nYoga\nCycling\nRunning\nSwimming\nPiano\nBooks\nLearning new languages (e.g., French on Duolingo)\nCooking"
-  },
-  {
-    "objectID": "reviews.html",
-    "href": "reviews.html",
-    "title": "Customer Reviews",
-    "section": "",
-    "text": "Welcome to our Testimonials and Reviews section, where our customers’ voices shine. Dive into a collection of genuine feedback reflecting satisfaction, trust, and appreciation for our products/services. These testimonials encapsulate our commitment to quality, service, and innovation.\nExplore diverse perspectives from our clients, sharing insights into the impact we’ve had on individuals and businesses. Join us in celebrating the relationships and success stories created through shared experiences.\nThank you for considering the thoughts of those who matter most – our incredible customers.\n\n\n\nExplore the exceptional feedback on akrun in the Reddit community showcased below."
+    "text": "Seeking revenue growth? Specify your target.\n#| standalone: true\n#| viewerHeight: 420\n\nfrom shiny.express import input, render, ui\n\nui.input_slider(\"n\", \"N\", 0, 100, 20)\n\n\n@render.text\ndef txt():\n    return f\"Need {input.n()}X increase in revenues\""
   }
 ]
