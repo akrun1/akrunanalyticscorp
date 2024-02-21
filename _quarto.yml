@@ -6,6 +6,7 @@ project:
     - /about.qmd
     - /vision.qmd
     - /reviews.qmd
+    - /hobbies.qmd
     - /revenue.qmd
   resources:
     - akrun.mp4
@@ -19,9 +20,9 @@ website:
         text: Home
       - about.qmd
       #- testing.qmd
-      #- hobbies.qmd
       - vision.qmd
       - reviews.qmd
+      - hobbies.qmd
       - revenue.qmd
 
 format:

@@ -16,26 +16,19 @@ editor: visual
 
 Achieving peak performance in both mind and body demands a commitment to meaningful extracurricular activities. Arun passionately dedicates himself to a diverse range of endeavors, strategically honing his mental acuity and enhancing his physical vitality. This deliberate investment translates into an exceptional ability to channel an unparalleled 200% concentration towards elevating the success of our valued clients' businesses.
 
-::: {layout="[ [1, 1], [1, 1], [1, 1]]"}
+::: {layout="[ [1], [1,1] ]"}
 
 ![](cycling.jpeg){width=80%}
-
-
-![](biking.jpeg){width=80%}
-
-
-![](pianist.jpeg){width=80%}
-![](meditation.jpeg){width=80%}
-
-![](skiing.jpeg){width=80%}
-![](swimming.jpeg){width=80%}
-
 :::
 
-::: {layout="[ [1], [1]]"}
+::: {layout="[ [2], [2,1] ]"}
 
-![](cooking.jpeg){width=90%}
-![](programmer.jpeg){width=90%}
+![](biking.jpeg){width=80%}
+:::
+
+::: {layout="[ [3], [3,1] ]"}
+
+![](pianist.jpeg){width=80%}
 
 :::
 
