@@ -26,5 +26,12 @@
     "title": "Revenue growth",
     "section": "",
     "text": "Seeking revenue growth? Specify your target.\n#| standalone: true\n#| viewerHeight: 420\n\nfrom shiny.express import input, render, ui\n\nui.input_slider(\"n\", \"N\", 0, 100, 20)\n\n\n@render.text\ndef txt():\n    return f\"Need {input.n()}X increase in revenues\""
+  },
+  {
+    "objectID": "hobbies.html",
+    "href": "hobbies.html",
+    "title": "Hobbies",
+    "section": "",
+    "text": "Achieving peak performance in both mind and body demands a commitment to meaningful extracurricular activities. Arun passionately dedicates himself to a diverse range of endeavors, strategically honing his mental acuity and enhancing his physical vitality. This deliberate investment translates into an exceptional ability to channel an unparalleled 200% concentration towards elevating the success of our valued clients’ businesses."
   }
 ]
