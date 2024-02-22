@@ -33,5 +33,12 @@
     "title": "Hobbies",
     "section": "",
     "text": "Achieving peak performance in both mind and body demands a commitment to meaningful extracurricular activities. Arun passionately dedicates himself to a diverse range of endeavors, strategically honing his mental acuity and enhancing his physical vitality. This deliberate investment translates into an exceptional ability to channel an unparalleled 200% concentration towards elevating the success of our valued clients’ businesses."
+  },
+  {
+    "objectID": "testing.html",
+    "href": "testing.html",
+    "title": "testing",
+    "section": "",
+    "text": "viewof bill_length_min = Inputs.range(\n  [32, 50],\n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"],\n  { value: [\"Torgersen\", \"Biscoe\"],\n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfiltered = transpose(data).filter(function(penguin) {\n  return bill_length_min < penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n\n\n\n\n\n\n\nPlotData\n\n\n\nPlot.rectY(filtered,\n  Plot.binX(\n    {y: \"count\"},\n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)"
   }
 ]

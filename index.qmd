@@ -7,12 +7,16 @@ about:
   template: trestles
   image-width: 30em
   links:
-    - text: "{{< fa brands linkedin size=5x >}}"
+    - icon: linkedin
+      text: Linkedin
       href: https://www.linkedin.com/in/akrun1/
-    - text: "{{< fa brands stack-overflow size=5x >}}"
+    - icon: stackoverflow
+      text: Stackoverflow
       href: https://www.stackoverflow.com/users/3732271/akrun
-    - text: "{{< fa brands github size=5x >}}"
+    - icon: github
+      text: Github
       href: https://github.com/akrun1
+      
 ---
 
 
