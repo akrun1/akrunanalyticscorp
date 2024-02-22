@@ -10,7 +10,7 @@ about:
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/akrun1/
-    - icon: stackoverflow
+    - icon: stack-overflow
       text: Stackoverflow
       href: https://www.stackoverflow.com/users/3732271/akrun
     - icon: github
