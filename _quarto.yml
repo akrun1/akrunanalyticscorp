@@ -24,6 +24,8 @@ website:
       - reviews.qmd
       - hobbies.qmd
       - revenue.qmd
+   
+    
 
 format:
   html: 
@@ -35,4 +37,6 @@ format:
     page-layout: full
     
 editor: visual
+
+
 
