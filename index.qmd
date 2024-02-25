@@ -2,6 +2,8 @@
 title: ""
 description: "akrun Analytics embraces the transformative force of change, cultivating 360° value and fostering shared success among our clients, people, shareholders, partners, and communities. Discover more."
 keywords: "akrun, analytics, consulting,strategy consulting, technology consulting, digital engineering, business operations management, digital consulting, operations consulting, digital manufacturing"
+jupyter: python3
+
 image: arun.png
 about: 
   template: trestles
@@ -16,9 +18,8 @@ about:
     - icon: github
       text: Github
       href: https://github.com/akrun1
-      
----
 
+---
 
 Welcome to akrun Analytics, where data transforms into actionable insights, and innovation fuels our passion for business analytics. Meet **Arun Kirshna Sasikala Appukuttan**, our distinguished Chief Data Scientist, leading the charge in converting raw data into strategic intelligence.
 
@@ -31,5 +32,24 @@ At akrun Analytics, we leverage Arun's expertise to navigate business analytics 
 
 
 
+```{python}
+#| echo: false
+from random_word import RandomWords
+from quote import quote
+
+r = RandomWords()
+w = r.get_random_word()
 
 
+res = quote(w, limit=1)
+words=res[0]['quote'].split()
+new_text=""
+word_count=0
+for word in words:
+  new_text+=word+" "
+  word_count+=1;
+  if word_count==10 or "." in word:
+    new_text+="\n "
+    word_count=0
+print(res[0]['author'],"-\n\n",new_text)
+```
