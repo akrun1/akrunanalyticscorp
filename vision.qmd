@@ -2,5 +2,44 @@
 title: "Vision"
 ---
 
+:::: {.columns}
 
-{{< video akrun.mp4 width="900" height="700">}}
+::: {.column width="60%"}
+{{< video akrun.mp4 width="600" height="500">}}
+
+:::
+
+::: {.column width="40%"}
+In the labyrinth of data, where brilliance aligns,\
+A scientist emerges, where expertise defines.\
+Not a mere mortal weaving tales to enthrall,\
+But a maestro of logic, answering the call.\
+
+"I am a data scientist," echoes with grace,\
+A virtuoso of numbers, a leader in the race.\
+No illusions, no snake oil’s deceptive dance,\
+But a symphony of truth, in every advance.\
+
+With algorithms as brushes, I paint the sublime,\
+In the canvas of insights, where patterns chime.\
+Promises not spoken, but results unfold,\
+A tapestry of success, a story well-told.\
+
+In the binary ballet, precision is my guide,\
+A conductor of data, with mastery to confide.\
+Elevating businesses to heights untold,\
+In the realm of achievement, where tales are bold.\
+
+No shadow of doubt, no false allure,\
+Only the essence of integrity, crystal pure.\
+A guardian of knowledge, a sentinel of light,\
+Navigating the digital realms, where brilliance takes flight.\
+
+Through the corridors of code, I walk with pride,\
+Unveiling the future, where possibilities reside.\
+A maestro of progress, a beacon of trust,\
+In the vast expanse of data, where excellence is a must.\
+
+:::
+::::
+

@@ -40,5 +40,12 @@
     "title": "testing",
     "section": "",
     "text": "viewof bill_length_min = Inputs.range(\n  [32, 50],\n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"],\n  { value: [\"Torgersen\", \"Biscoe\"],\n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfiltered = transpose(data).filter(function(penguin) {\n  return bill_length_min < penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n\n\n\n\n\n\n\nPlotData\n\n\n\nPlot.rectY(filtered,\n  Plot.binX(\n    {y: \"count\"},\n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)"
+  },
+  {
+    "objectID": "vision.html",
+    "href": "vision.html",
+    "title": "Vision",
+    "section": "",
+    "text": "In the labyrinth of data, where brilliance aligns,\nA scientist emerges, where expertise defines.\nNot a mere mortal weaving tales to enthrall,\nBut a maestro of logic, answering the call.\n\n“I am a data scientist,” echoes with grace,\nA virtuoso of numbers, a leader in the race.\nNo illusions, no snake oil’s deceptive dance,\nBut a symphony of truth, in every advance.\n\nWith algorithms as brushes, I paint the sublime,\nIn the canvas of insights, where patterns chime.\nPromises not spoken, but results unfold,\nA tapestry of success, a story well-told.\n\nIn the binary ballet, precision is my guide,\nA conductor of data, with mastery to confide.\nElevating businesses to heights untold,\nIn the realm of achievement, where tales are bold.\n\nNo shadow of doubt, no false allure,\nOnly the essence of integrity, crystal pure.\nA guardian of knowledge, a sentinel of light,\nNavigating the digital realms, where brilliance takes flight.\n\nThrough the corridors of code, I walk with pride,\nUnveiling the future, where possibilities reside.\nA maestro of progress, a beacon of trust,\nIn the vast expanse of data, where excellence is a must."
   }
 ]
